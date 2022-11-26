@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c89f9f;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #fff;
+  max-width: 375px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  overflow: hidden;
+}
+.header {
+  position: relative;
+}
+.cover {
+  background-color: #373232;
+  min-width: 375px;
+  min-height: 140px;
+}
+.avatar_box {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.avatar {
+  width: 160px;
+  object-position: center;
+  border-radius: 100%;
+}
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.postition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.postition p {
+  margin: 0;
+}
+.postition img {
+  height: 13px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 57px;
+  margin-bottom: 15px;
+}
+.actions button {
+  border-radius: 8px;
+  width: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  gap: 5px;
+  height: 35px;
+  cursor: pointer;
+}
+.actions button img {
+  height: 14px;
+}
+.chat {
+  background: #0466c8;
+}
+.call {
+  background: #33415c;
+}
+.contact {
+  background: #7d8597;
+  width: 30px !important;
+  height: 35px;
+}
+.contact img {
+  height: 18px !important;
+}
+.socials {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(211, 211, 211, 0.5);
+  padding: 22px;
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.social_box {
+  background: rgba(255, 232, 214, 0.19);
+  border: 0.5px solid #d8d8d8;
+  box-shadow: 0px 4px 9px rgba(94, 94, 94, 0.15);
+  border-radius: 10px;
+  padding: 11px 33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: none;
+  color: #000;
+}
+.social_box img {
+  height: 30px;
+}
+.social_box p {
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+}
