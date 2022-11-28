@@ -56,7 +56,7 @@ export default function App() {
               <p>Call</p>
             </button>
           </a>
-          <a href=" wtai://wp/ap;0383017053;ToanDz">
+          <a href="wtai://wp/ap;0383017053;ToanDz">
             <button className="contact">
               <img src={Contact} alt="" />
             </button>
